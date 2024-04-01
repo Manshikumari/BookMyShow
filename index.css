@@ -30,8 +30,19 @@ img{
 }
 input{
     height: 40px;
-    width: 80%
-    
-
+    width: 80%;
+    border: 1px solid #eee;
+    padding: 10px;
+    color: #eee;
+}
+.sign{
+    padding: 10px;
+}
+#signbtn{
+   padding: 8px 16px;
+   background-color: #f84464;
+   border-radius: 5px;
+   border: 0px;
+   color: #fff;
 }
 /* Main css end here */
