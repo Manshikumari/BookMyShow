@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* Global Css start here */
+
+/* Global Css end here */
+
+/* Main css start her */
+
+.row{
+    padding: 10px 20px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    padding: 10px;
+    width: 10%;
+}
+img{
+    height: 50px;
+    width: 100%;
+}
+.Search{
+    padding: 10px;
+    width: 50%;
+}
+input{
+    height: 40px;
+    width: 80%
+    
+
+}
+/* Main css end here */
