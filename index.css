@@ -8,6 +8,13 @@
 }
 /* Global Css start here */
 
+h2{
+    font-size: 28px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+
+}
+
 /* Global Css end here */
 
 /* Main css start her */
@@ -93,6 +100,21 @@ a{
 .list{
     padding: 30px 60px;
     background-color: #f5f5f5;
+}
+.heading{
+    padding-bottom: 20px;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#movlist{
+    height: 400px;
+    width: 19%;
+    border-radius: 10px;
+    margin:0px 2px ;
+
 }
 
 /* Main css end here */
