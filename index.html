@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Tickets, Plays, Sports, Events & Cinemas nearby - BookMyShow</title>
-    <link rel="icon" type="image/png" href="./images/favicon.ico">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Tickets, Plays, Sports, Events & Cinemas nearby - BookMyShow</title>
+  <link rel="icon" type="image/png" href="./images/favicon.ico">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <div class="main">
-        <div class="container">
-            <div class="row">
-               <div class="logo">
-                 <img src="./images/showlogo.jpg" alt="oops">
-               </div>
-               <div class="Search">
-                 <input type="text"  placeholder="Search for Movies, Events, Plays, Sports and Activities">
-               </div>
-               <div class="sign">
-                <button id="signbtn">Sign in</button>
-               </div>
-               <div class="hemburg">
-                <ion-icon name="reorder-four-outline"></ion-icon>
-               </div>
-
-            </div>
+  <header>
+    <div class="container ">
+      <div class="row">
+        <div class="logo">
+          <img src="./images/showlogo.jpg" alt="oops">
         </div>
-        <div class="nav-row">
+        <nav>
 
-          <div class="menu">
+          <div class="search">
+            <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities">
+          </div>
+          <div class="gap">
+
+          </div>
+          <div class="sign">
+            <button id="signbtn">Sign in</button>
+          </div>
+          <div class="hemburg">
+            <ion-icon name="reorder-four-outline"></ion-icon>
+          </div>
+        </nav>
+
+      </div>
+      <div class="row menu">
+        <div class="column">
           <ul>
             <li><a href="#">Movies</a></li>
             <li><a href="#">Stream</a></li>
@@ -40,48 +46,41 @@
             <li><a href="#">Activities</a></li>
           </ul>
         </div>
-        <div class="menu2">
+        <div class="column">
           <ul>
             <li><a href="#">ListYourShow</a></li>
             <li><a href="#">Corporates</a></li>
             <li><a href="#">Offers</a></li>
             <li><a href="#">Gift Cards</a></li>
-            
+
           </ul>
         </div>
-        
-         </div>
+      </div>
+    </div>
+  </header>
 
-      <div class="list">
-        <div class="heading"><h2>Movies</h2></div>
+  <!-- movies starts here  -->
 
-        <div class="gallery">
-          <div class="movielist">
-            <img id="movlist" src="./images/img1.jpg" alt="oops">
-            <img id="movlist"src="./images/img2.jpg" alt="oops">
-            <img id="movlist"src="./images/img3.jpg" alt="oops">
-            <img id="movlist"src="./images/img4.jpg" alt="oops">
-            <img id="movlist"src="./images/img5.jpg" alt="oops">
-
-            
-    
-          </div>
-
+  <div class="container movies">
+    <div class="row">
+      <div class="column heading">
+        <h2>Movies</h2>
+      </div>
+      <div class="row">
+        <div class="column movielist">
+          <img id="movlist" src="./images/img1.jpg" alt="oops">
+          <img id="movlist" src="./images/img2.jpg" alt="oops">
+          <img id="movlist" src="./images/img3.jpg" alt="oops">
+          <img id="movlist" src="./images/img4.jpg" alt="oops">
+          <img id="movlist" src="./images/img5.jpg" alt="oops">
         </div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
+  </div>
+
+
+  <!-- movies ends here  -->
+
 </body>
+
 </html>

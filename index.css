@@ -15,106 +15,124 @@ h2{
 
 }
 
-/* Global Css end here */
-
-/* Main css start her */
-
-.row{
-    padding: 10px 20px;
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    width: 100%;
-}
-.logo{
-    padding: 10px;
-    width: 10%;
-}
-img{
-    height: 40px;
-    width: 100%;
-}
-.Search{
-    padding: 10px;
-    width: 50%;
-}
-input{
-    height: 40px;
-    width: 80%;
-    border: 1px solid #eee;
-    padding: 10px;
-    color: #eee;
-}
-.sign{
-    padding: 10px;
-}
-#signbtn{
-   padding: 8px 16px;
-   background-color: #f84464;
-   border-radius: 5px;
-   border: 0px;
-   color: #fff;
-}
-.hemburg{
-    padding: 10px;
-    font-size: 30px;
-    color: black;
-}
-
-.nav-row{
-    padding: 10px 20px;
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    background-color: #f5f5f5;
-    border-bottom:2px solid #eee;
-
-}
-.menu{
-    padding: 5px;
-   
-}
-.menu ul li{
-    padding: 5px;
-    display: inline;
-    text-decoration: none;
-    color: black;
-    font-family: "Roboto", sans-serif;
-}
-.menu2{
-    padding: 5px;
-}
-
-.menu2 ul li{
-    padding: 5px;
-    display: inline;
-    text-decoration: none;
-    color: black;
+.container{
+    width: 95%;
+    max-width: 1280px;
+    margin: 0px auto;
 }
 a{
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
 }
-
-.list{
-    padding: 30px 60px;
-    background-color: #f5f5f5;
-}
 .heading{
-    padding-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
-.gallery{
+/* Global Css end here */
+/* header starts here  */
+
+
+header{
+    /* background-color: rebeccapurple; */
+}
+header .row{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    padding: 1rem 0;
 }
-#movlist{
-    height: 400px;
-    width: 19%;
+header .logo{
+    width: 10%;
+}
+header .logo img{
+    height: 40px;
+    width: 100%;
+ 
+}
+header nav{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav .search{
+    width: 50%;
+    /* background-color: yellow; */
+}
+header nav .gap{
+    width: 25%;
+}
+header .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .menu ul li{
+    padding: 5px;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+header .menu2{
+    padding: 5px;
+}
+
+header .menu2 ul li{
+    padding: 5px;
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+header nav input{
+    height: 40px;
+    width: 80%;
+    border: 1px solid #eee;
+    padding: 10px;
+    color: #eee;
+}
+
+header nav  #signbtn{
+   padding: 8px 16px;
+   background-color: #f84464;
+   border-radius: 5px;
+   border: 0px;
+   color: #fff;
+}
+header nav .hemburg{
+  
+    font-size: 30px;
+    color: black;
+}
+
+
+/* header ends here  */
+
+
+
+
+
+
+
+
+
+
+/* movies starts here  */
+.movies .movielist{
+    /* height: 400px; */
+   
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+.movies .movielist img{
+    width: 100%;
     border-radius: 10px;
-    margin:0px 2px ;
-
+ 
 }
-
-/* Main css end here */
+/* movies ends here  */
