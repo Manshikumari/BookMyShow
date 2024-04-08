@@ -12,6 +12,7 @@ h2{
     font-size: 28px;
     color: black;
     font-family: "Roboto", sans-serif;
+    margin-top: 20px;
 
 }
 
@@ -185,12 +186,40 @@ header nav .hemburg{
 }
 /* movies ends here  */
 /* CTA start here  */
-.container .CTA{
-    padding: 40px;
+.container.CTA{
+    padding: 50px 0px;
+    
 }
-.column .CTA img{
-height:50vh ;
-width: auto;
-object-fit: fill;
+.CTA img{
+height:15vh;
+/* width:fit-content; */
+width: 100%;
 }
 /* CTA end here  */
+
+/* event list start here */
+.event{
+    display: grid;
+    grid-auto-flow: column;
+    /* grid-template-columns: calc(100%/5); */
+    gap: 16px;
+    overflow: hidden;
+    padding: 30px 0px 50px 0px;
+    
+}
+.event img{
+    width: 220px;
+    /* margin: 0px 20px; */
+    border-radius: 25px;
+}
+
+.Premieres{
+    background-color: #2b3148;
+}
+
+.Premieres .row .Premieres img{
+    
+    height: 80px;
+}
+
+/* event list end here */
