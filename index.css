@@ -214,12 +214,11 @@ width: 100%;
 }
 
 .Premieres{
+    padding: 40px 0px;
     background-color: #2b3148;
 }
-
-.Premieres .row .Premieres img{
+.Premieres .container .rowPremieres{
     
-    height: 80px;
 }
 
 /* event list end here */
