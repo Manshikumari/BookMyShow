@@ -175,12 +175,13 @@ header nav .hemburg{
     /* height: 400px; */
    
     display: grid;
+    height: 100%;
     grid-auto-flow: column;
     gap: 5px;
 }
 .movies .movielist img{
     width: 100%;
-    height: 65vh;
+    height: auto;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -253,11 +254,75 @@ h3{
     font-size: 2rem;
     color: #ffff;
     font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 h4{
     font-size: 1rem;
     color: #ffff;
     font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 /* event list end here */
+
+/* discription list start here */
+.dis{
+    padding: 30px 0px;
+}
+.dislist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.dislist img{
+    width: 100%;
+    border-radius: 15px;
+}
+.content{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.cont{
+   padding: 0px 10px;
+}
+h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+p{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.dislist .arrow{
+    /* width: 5rem; */
+    /* height: 5rem; */
+    font-size: 30px;
+    color: black;
+    background-color: #eee;
+    border-radius: 100%;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    
+    left: -2%;
+
+}
+.right{
+
+    right: -2%;
+}
+
+/* discription list end here */
