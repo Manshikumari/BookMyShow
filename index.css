@@ -300,17 +300,20 @@ p{
     font-weight: 200;
     margin-top: 5px;
 }
+.pri{
+    position: relative;
+}
 
-.dislist .arrow{
-    /* width: 5rem; */
-    /* height: 5rem; */
+.pri .arrow{
+     width: 3rem; 
+     height: 3rem; 
     font-size: 30px;
     color: black;
     background-color: #eee;
     border-radius: 100%;
-    padding: 5px;
+    padding: 2px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
