@@ -1,13 +1,13 @@
 .slider{
-    height: 450px;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0,0, 0, 0.75),
     rgba(0, 0, 0, 0.75)), url(./moviesimages/movi1.jpg) , url(./moviesimages/movi2.jpg) , url(./moviesimages/movi3.jpg);
-   
+    padding: 40px 0px;
 }
 .slider .container{
-    padding: 40px 80px;
+    
 }
 .slider .container .row
 {
@@ -15,7 +15,7 @@
 
 }
 .slider .container .row .column img{
-    height: 400px;
+    height: 370px;
     border-radius: 25px;
     overflow: hidden;
 }
