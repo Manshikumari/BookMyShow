@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .slider{
     height: auto;
     width: 100%;
@@ -6,12 +8,11 @@
     rgba(0, 0, 0, 0.75)), url(./moviesimages/movi1.jpg) , url(./moviesimages/movi2.jpg) , url(./moviesimages/movi3.jpg);
     padding: 40px 0px;
 }
-.slider .container{
-    
-}
+
 .slider .container .row
 {
-    /* padding: 50px 50px; */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 
 }
 .slider .container .row .column img{
@@ -19,3 +20,48 @@
     border-radius: 25px;
     overflow: hidden;
 }
+
+/* Global css start here */
+h1{
+    font-size: 35px;
+    color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+h2{
+    font-size: 20px;
+    color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p{
+    font-size: 16px;
+    color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    padding: 0px;
+
+}
+/* Global css end here */
+.detail{
+    padding: 120px 20px;
+}
+/* body css start here */
+
+#btn1{
+    padding: 15px;
+    background-color: #f84464;
+    color: #f5f5f5;
+    font-size: 16px;
+    width: 230px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 15px 5px 0px 5px;
+
+}
+
+/* body css end here */
