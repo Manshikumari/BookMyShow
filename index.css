@@ -262,6 +262,14 @@ h4{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
+h6{
+    font-size: 16px;
+    color: #c6c6c7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin:10px 0px ;
+    
+}
 
 /* event list end here */
 
@@ -353,7 +361,7 @@ footer{
 .footer .row{
     display: flex;
     justify-content: space-between;
-   
+
 }
 .footer .row .home{
     font-size: 30px;
@@ -375,12 +383,38 @@ p{
     font-family: "Roboto", sans-serif;
     border: 0px;
     border-radius: 10px;
+    margin-bottom: 20px;
     
 }
 /* usp start here */
 .usp{
-    padding: 10px 0px;
+    padding: 15px 0px;
     background-color:#404043 ;
 }
+.usp .container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usp .container .row .column{
+    width: 33%;
+    text-align: center;
+}
 /* usp end here */
+
+/* <!-- details start here now --> */
+.details{
+    padding: 20px 0px;
+}
+
+.details .container .row .column{
+    padding: 5px 0px;
+}
+.details .container .row .column a{
+    color: #c6c6c7;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+/* <!-- details end here now --> */
+
 /* footer end here */
